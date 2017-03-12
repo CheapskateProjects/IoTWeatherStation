@@ -3,7 +3,9 @@
 
   Measures temperature and humidity with DHT11 sensor. Also measures air dust content with GP2Y1010AU0F dust sensor. 
 
-  Measured values are passed into AWS IoT cloud though IoT gatewa with serial message. 
+  Measured values are passed into AWS IoT cloud though IoT gatewa with serial message.
+
+  Dependency(DHT11 library): https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTstable 
   
   created   Mar 2017
   by CheapskateProjects
